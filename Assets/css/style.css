@@ -1,0 +1,57 @@
+/* 
+para yo poder trabajar em css, necesito el selector, los basicos son: 
+por tag=> hace referencia a una etiqueta
+por clase=> es creada por nosotros y puede ser reautilizadas tantas veces como se quiera
+por ID=> 
+Etiquetas en bloque= utilizan el 100% de la pantalla
+etiquetas inline= utilizan un espacio especifico 
+
+*/
+
+body {
+  margin: 0px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+h1 {
+  margin-top: 0px;
+  font-size: 50px;
+  color: aquamarine;
+  background-size: cover;
+}
+
+.header {
+  text-align: center;
+  background-image: url("../img/Foto header.jpg");
+  background-color: #cccccc;
+  height: 150px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bloque-principal {
+  width: auto;
+  display: inline-block;
+  margin: 150px 50px 150px 50px;
+  height: 100px;
+  font-stretch: condensed;
+}
+
+.main {
+  text-align: center;
+}
+
+.pie_de_pagina {
+  background-color: rgba(255, 115, 0, 0.89);
+  height: 190px;
+  color: black;
+  text-align: center;
+  font-size: 50px;
+  margin: auto;
+}
+
+.menu {
+  font-size: 30px;
+  margin: 30px 20px 30px;
+}
